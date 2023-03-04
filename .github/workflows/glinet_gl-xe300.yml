@@ -17,7 +17,7 @@ on:
   push:
     paths:
       - '.github/workflows/glinet_gl-xe300.yml'
-      - 'devices/Xe300/.config'
+      - 'devices/xe300/.config'
 
 env:
   REPO_URL: https://github.com/solomonricky/openwrt

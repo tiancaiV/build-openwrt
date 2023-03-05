@@ -8,7 +8,7 @@
 #                                                                     #
 # =================================================================== #
 
-name: glinet_gl-xe300
+name: glinet_gl-mv1000w
 
 on:
   workflow_dispatch:
@@ -16,8 +16,8 @@ on:
     types: started
   push:
     paths:
-      - '.github/workflows/glinet_gl-xe300.yml'
-      - 'devices/xe300/.config'
+      - '.github/workflows/glinet_gl-mv1000w.yml'
+      - 'devices/Glinet-Brume/.config'
 
 env:
   REPO_URL: https://github.com/solomonricky/openwrt

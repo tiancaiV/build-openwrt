@@ -20,8 +20,8 @@ on:
       - 'devices/Glinet-Brume/.config'
 
 env:
-  REPO_URL: https://github.com/solomonricky/openwrt
-  REPO_BRANCH: iptables-22.03
+  REPO_URL: https://github.com/1715173329/imoutowrt
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: devices/Glinet-Brume/.config
   DIY_P1_SH: devices/Glinet-Brume/diy-part.sh

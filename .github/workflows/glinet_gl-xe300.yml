@@ -20,8 +20,8 @@ on:
       - 'devices/xe300/.config'
 
 env:
-  REPO_URL: https://github.com/solomonricky/openwrt
-  REPO_BRANCH: iptables-22.03
+  REPO_URL: https://github.com/Lienol/openwrt
+  REPO_BRANCH: 22.03
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: devices/xe300/.config
   DIY_P1_SH: devices/xe300/diy-part1.sh
